@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OTP reader</string>
+
+    <string name="notification_access_message">Notification Access Permission Required to be able to read OTPs. Please enable it for this app from Settings.</string>
+    <string name="enable">Enable</string>
+    <string name="included_apps">Included Apps</string>
+    <string name="select_apps">Select apps</string>
+    <string name="search">Search app name</string>
+    <string name="extract_if_message_contains">(optional) Extract OTP only when message contains:</string>
+    <string name="extract_if_message_contains_hint">comma, separated, values</string>
+</resources>
