@@ -39,9 +39,9 @@ class NotificationsListener : NotificationListenerService() {
                 if (mustContain.isEmpty()) {
                     text?.getOTP()?.copyToClipboard()
                 } else {
-                    val opt = if (mustContain.any { text?.contains(it) == true }){
+                    val opt = if (mustContain.any { text?.contains(it, ignoreCase = true) == true }){
                         text?.getOTP()
-                    } else if (mustContain.any { title?.contains(it) == true }) {
+                    } else if (mustContain.any { title?.contains(it, ignoreCase = true) == true }) {
                         title?.getOTP()
                     } else null
 
